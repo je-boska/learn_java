@@ -18,5 +18,8 @@ public class ErsteVersuche {
 
         System.out.print("Die Summe von " + alpha + " % " + beta + " ergibt: ");
         System.out.println(alpha%beta);
+
+        int delta = -2147483648;
+        System.out.println(delta - 1);
     }
 }
