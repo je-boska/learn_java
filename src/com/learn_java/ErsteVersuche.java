@@ -28,5 +28,13 @@ public class ErsteVersuche {
         c = 20 == (10 * 2);
 
         System.out.println(!a && (b || c));
+
+        int x = 0;
+        int y = 0;
+
+        x = y = 3;
+
+        System.out.println(x);
+        System.out.println(y);
     }
 }
