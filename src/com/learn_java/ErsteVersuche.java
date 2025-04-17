@@ -36,5 +36,13 @@ public class ErsteVersuche {
 
         System.out.println(x);
         System.out.println(y);
+
+        double erg = 0.6;
+        double mult = 6*0.1;
+        boolean gleich = erg == mult;
+        boolean groesser = mult > erg;
+
+        System.out.println(gleich);
+        System.out.println(groesser);
     }
 }
