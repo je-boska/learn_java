@@ -50,5 +50,11 @@ public class ErsteVersuche {
         double erg2 = gross + mini - gross;
         System.out.println(erg2 == mini);
         System.out.println(erg2);
+
+        char one = '\u0061';
+        System.out.println(one);
+
+        String test = "-28" + 2;
+        System.out.println(test);
     }
 }
