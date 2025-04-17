@@ -21,5 +21,12 @@ public class ErsteVersuche {
 
         int delta = -2147483648;
         System.out.println(delta - 1);
+
+        boolean a, b, c;
+        a = 10 < 5;
+        b = 11 < 3;
+        c = 20 == (10 * 2);
+
+        System.out.println(!a && (b || c));
     }
 }
