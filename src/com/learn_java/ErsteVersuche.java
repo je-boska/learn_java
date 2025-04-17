@@ -44,5 +44,11 @@ public class ErsteVersuche {
 
         System.out.println(gleich);
         System.out.println(groesser);
+
+        double mini = 0.001;
+        double gross = 999999999;
+        double erg2 = gross + mini - gross;
+        System.out.println(erg2 == mini);
+        System.out.println(erg2);
     }
 }
