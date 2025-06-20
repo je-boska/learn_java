@@ -14,7 +14,7 @@ public class Wareneinheit {
     }
 
     public Wareneinheit(int startMenge) {
-        if (startMenge < 0) {
+        if (startMenge > 0) {
             this.aktuelleMenge = startMenge;
             this.maxMenge = startMenge;
             this.anzahlTransaktionen = 1;
@@ -65,9 +65,10 @@ public class Wareneinheit {
     }
 
     public void einheitAusgeben() {
-        System.out.println("Aktuelle Menge: " + aktuelleMenge);
-        System.out.println("Maximale Menge: " + maxMenge);
-        System.out.println("Anzahl der Transaktionen: " + anzahlTransaktionen);
-        System.out.println("Aktivstatus: " + aktivStatus);
+        System.out.print("Aktuelle Menge: " + aktuelleMenge + ", ");
+        System.out.print("Maximale Menge: " + maxMenge + ", ");
+        System.out.print("Anzahl der Transaktionen: " + anzahlTransaktionen + ", ");
+        System.out.print("Aktivstatus: " + aktivStatus);
+        System.out.println();
     }
 }
